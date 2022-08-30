@@ -1,0 +1,730 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+.heads {
+    width: 100%;
+    height: 42px;
+    background-color: #AE946D
+}
+
+.logo {
+    width: 3%;
+    padding-left: 40px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 11px;
+
+}
+
+#heads {
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+
+}
+
+.headline {
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.inside-nav-left {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.inside-nav-left a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 11.5px;
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-lists {
+    display: flex;
+    list-style: none;
+}
+
+.inside-nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.inside-nav-right a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 11.5px;
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+.s-ba  {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width: 185px;
+    background: #000000;
+    text-align: center;
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    z-index: 0;
+    color: #ffff;
+    padding-left:15px;
+  }
+
+  s.si{
+    padding-right: 10px;
+  }
+
+
+
+
+
+
+
+
+.bg {
+    background-image: url(../images/png.webp);
+    width: auto;
+    height: 509px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box {
+     /* background-color: aqua;  */
+    width: 395px;
+    height: 194px;
+    margin-right: 100px;
+    float: right;
+    margin-top: 171px;
+
+}
+.nw-arr{
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-decoration: none solid rgb(0, 0, 0);
+    line-height: 32px;
+    margin-top: 37px;
+}
+.nw-ar{
+   font-family:  "FFDINforPuma", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 16px;
+   text-align: right;
+   font-weight: 400;
+   margin-top: 21px;
+   
+}
+.btn{
+    
+    
+    display: flex;
+    justify-content: flex-end;
+    justify-content:space-between;
+    
+    
+    
+}
+.btn-all{
+    color:white;
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.bt1:hover{
+    color: green;
+}
+.btn1{
+    width: 114px;
+    height:43px;
+    margin-left: 15px;
+    background-color:black;
+
+}
+.btn2{
+    width: 136px;
+    height:43px;
+    background-color:black;
+    
+}
+.btn3{
+    width: 114px;
+    height:43px;
+    background-color:black;
+}
+.trending{
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    font-weight:700;
+    margin-top:52px;
+    text-align: center;
+}
+.trend-cont{
+    
+    display:flex;
+    margin-top:26px;
+    
+    
+    
+}
+.trend-cont1{
+    box-sizing: border-box;
+    height: 422px;
+    width: 347px;
+    margin-right: 11px;
+}
+.trend-imgs{
+    width:343px;
+    height:343px;
+    
+}
+.trend-text{
+    display:flex;
+    justify-content:space-between; 
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight:700;
+    padding: 10px; 
+    
+}
+.overlaysection{
+    height:900px;
+}
+.over-lay{
+    background-color: #ff0318;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+}
+.overlay-size{
+    margin-left: 100px;
+    margin-right:100px;
+    
+}
+.search-icon{
+    position: relative;
+    color: white;
+    z-index: 1;
+    right: 180px;
+    top: 12px;
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+ .cola{
+    /* background-color: aqua; */
+    background-size: cover;
+    width: 456px;
+    height:210px;
+    margin-left: 12px;
+    position: absolute;
+    margin-top:50px;
+} 
+.img-col{
+    height: 60px;
+    width: 139px;
+}
+.puma-cola{
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:16px;
+    font-weight:400;
+}
+.sign-text{
+    font-family:"FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:16px;
+    font-weight:400;
+    margin-top: 19px;
+}
+.btn-col{
+    margin-top: 19px;
+    color:white;
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    cursor: pointer;
+    margin-left:5px;
+    
+}
+.btn4{
+    width: 114px;
+    height:44px;
+    background-color:black;
+}
+
+.img-mains{
+    width: 682px;
+    height:777px;
+    /* margin-left:500px; */
+    float:right;
+    margin-top: 50px;
+    margin-right:5px;
+}
+.img-ls{
+    position:relative;
+    width:581px;
+    height:328px;
+    z-index: 1; 
+    bottom: 527px;
+    margin-left:12px;
+}
+.overlay-images
+{
+    height:852px;
+}
+
+.newevents-img{
+    margin-left:4px;
+    width:290px;
+    height:290px;
+}
+.newevents-box{
+    box-sizing: border-box;
+    height: 363px;
+    width: 347px;
+    margin-right: 8px;
+}
+.newpack{
+    margin-top:376px;
+    text-align: center;
+    color:#ec8101;
+    font-size:25px;
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    line-height:18px;
+}
+.explore{
+    margin-top:59px;
+    height:100px;
+    width:900px;
+    margin-left:250px;
+    
+}
+.explore-text{
+text-align:center;
+font-family: "FFDINforPuma",-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+/* font-size:20px; */
+font-size: 1.25rem;
+    font-weight: 700;
+}
+.explore-buttons{
+    display:flex;
+    margin-left:150px;
+    margin-top:17px;
+    margin:0px 70px;
+} 
+  .btn-ex{
+    margin-top: 19px;
+    color:white;
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    cursor: pointer;
+    margin-left:5px;
+}
+.btn5{
+    height:45px;
+    width:185px;
+    color:black;
+    background-color:white;    
+}
+.bg2{
+    
+        background-image: url(../images/bg2.jfif);
+        width: auto;
+        height: 486px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 30px;
+
+}
+.box-bg2{
+    /* background-color: aqua; */
+    width: 253px;
+    height:213px;
+    float: left;
+    margin-left:95px;
+    margin-top: 150px;;
+}
+.nw-bg2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 25px;
+    font-weight:700;
+}
+.nw-ted{
+   font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   font-size: 16px;
+   font-weight:400;
+   text-align: center;
+
+}
+.mir-tx{
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .03125rem;
+    font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;;
+    margin-top: 12px;
+}
+.btn6{
+    background-color: black;
+    width:114px;
+    height: 45px;
+    margin-left: 65px;
+    margin-top: 29px;
+}
+.bg3{
+    width: 1333px;
+    height: 630px;
+    margin-top:50px;
+    margin-left:35px;
+}
+.bg3-ht{
+    font-family: "FFDINforPuma", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    text-align:center;
+}
+.htr{
+    display:flex;
+    justify-content:space-between;
+}
+.htr-imgs{
+    width: 440px;
+    height:593px;
+    margin-top:9px;
+}
+.htr-img{
+    width:441px;
+    height:544px;
+}
+.htr-txt{
+    text-align:center;
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:13.28px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.losi{
+    height: 50px;
+    width:100%;
+    margin-top:  20px;
+}
+.losi-txt{
+    height: 50px;
+    width: 1346px;
+    margin-left: 30px;
+    
+}
+.losi-txts{
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight:700;
+    text-align: center;
+    margin-top: 50px;
+}
+.losi-imgs{
+    width:1365px;
+    height:592px;
+    margin-left:19px;
+    display:flex;
+}
+.losi-items{
+    width:455px;
+    height:592px;
+}
+.losi-img{
+    height:456px;
+
+}
+.losi-text-items{ 
+    height:136px;
+}
+.btn7{
+    color:black;
+    background-color:white;   
+    margin-left: 90px;
+
+}
+.btn-f{width:293px; height: 43px;}
+.btn-m{width:283px; height: 43px;}
+.btn-l{width:339px; height: 43px;}
+
+.bg4{
+    
+    background-image: url(../images/d1.jfif);
+    width: auto;
+    height: 486px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.bg5{
+    
+    background-image: url(../images/d2.jfif);
+    width: auto;
+    height: 486px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.btn-mira{
+    margin-left: 76px;
+}
+.box {
+     /* background-color: aqua  ;  */
+    width: 395px;
+    height: 194px;
+    margin-right: 100px;
+    float: right;
+    margin-top: 171px;
+
+}
+.bg6{
+    
+    
+    background-image: url(../images/d3.jfif);
+    width: auto;
+    height: 509px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 20px;
+}
+.bg7{
+    
+    background-image: url(../images/d4.jfif);
+    width: auto;
+    height: 486px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.instagram{
+    width: 100%;
+    height:380px;
+    margin-top: 34px;;
+    text-align: center;
+
+}
+
+
+.insta-head{
+    font-family: "FFDINforPuma", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,;
+    color: #667282;
+    font-size: 30px;
+    display: inline-block;
+}
+.insta-info{
+    line-height: 1.5;
+    color: #4d5866;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.insta-items{
+    width: 153px;
+    height: 20px;
+    display:flex;
+    color: #4d5866;
+    justify-content:space-between;
+    font-size:14px;
+    margin-left: 626px;
+    margin-top: 20px;
+}
+.insta-pics{
+    display: flex;
+    width: 100%;
+    height: 249px;
+    margin-top: 15px;
+}
+.imgs-insta{
+    width: 248px;
+    height: 248px;
+    margin-right:13px;
+   
+}
+.img-intsa{
+    width: 248px;
+    height: 248px;
+    margin-left:50px;
+}
+.pcsa{
+    margin-top:42px;
+    margin-left:  220px;
+    height: 107px;
+}
+.pcsa-m{
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.pcsa-n{margin-top:23px;
+font-size: 16px;
+font-weight:400;
+width: 964px;
+font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.footer{
+    width:100%;
+    height: 490px;
+    background-color:#181818;
+    
+}
+.footer-m{
+    width:433px;
+    height: 192px;
+    margin-top: 70px;
+    
+}
+.footer-sections{
+    display:flex;
+    width: 1326px;
+    /* height: 194px; */
+    color: white;
+    margin-left: 40px;
+    margin-top: 70px;
+    justify-content:space-between;
+    margin-right:112px;
+}
+.ft-ms{
+    display:flex;
+    justify-content: space-between;
+    width: 884px;
+    height:195px;
+}
+.ft-sp{
+    width:436px;
+    height:191px;
+}
+.ft-fs{
+    width: 336px;
+    height:275px;
+
+}
+.sp-items{
+    display: flex;
+    
+}
+.sp-items-l{
+    margin-right: 96px;
+    margin-top: 25px;
+}
+.ft-icons{
+    margin-top: 27px;
+    width: 265px;
+    height: 56px;
+    
+
+}
+.ft-txts{
+    margin-top:14px;
+    font-size: 14px;
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.fa-brands{
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-right: 23px;
+}
+hr{
+    margin-top: 20px;
+}
+.p-text{
+ padding-top: 20px;
+ padding-left: 27px;
+ font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ font-size: 11px;
+ font-weight: 700;
+}
+.ft-imger{
+    display:flex;
+    margin-top: 90px;
+}
+.ftr-udr{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 25px;
+}
+.hr-txt{
+    margin-left: 27px;
+    margin-top: 1px;
+    height: 0;}
+.ftr-line{
+    opacity: 0.1;
+    margin-top: 30px;
+}
+.ftr-terms{
+    width: 515px;
+    height:60px;
+    display:flex;
+    color: #fff;
+    justify-content:space-between;
+    padding-top: 50px;
+    margin-left: 406px;
+}
+.cpyryt{
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+}
+.l-data{
+    font-family: FFDINforPuma, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+}
